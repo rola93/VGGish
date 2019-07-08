@@ -1,0 +1,4 @@
+*.pyc
+weights/*.h5
+.idea/
+dataset/data/*.wav
