@@ -60,32 +60,32 @@ Training...
 Report for training
               precision    recall  f1-score   support
 
-          no       0.88      0.90      0.89      2850
-         yes       0.90      0.88      0.89      2990
+          no       0.94      0.99      0.96      2850
+         yes       0.99      0.94      0.96      2990
 
-    accuracy                           0.89      5840
-   macro avg       0.89      0.89      0.89      5840
-weighted avg       0.89      0.89      0.89      5840
+    accuracy                           0.96      5840
+   macro avg       0.96      0.96      0.96      5840
+weighted avg       0.96      0.96      0.96      5840
 
 Report for validation
               precision    recall  f1-score   support
 
-          no       0.86      0.90      0.88       363
-         yes       0.89      0.85      0.87       356
+          no       0.92      0.98      0.95       363
+         yes       0.98      0.92      0.95       356
 
-    accuracy                           0.87       719
-   macro avg       0.87      0.87      0.87       719
-weighted avg       0.87      0.87      0.87       719
+    accuracy                           0.95       719
+   macro avg       0.95      0.95      0.95       719
+weighted avg       0.95      0.95      0.95       719
 
 Report for testing
               precision    recall  f1-score   support
 
-          no       0.90      0.90      0.90       386
-         yes       0.90      0.90      0.90       397
+          no       0.92      0.98      0.95       386
+         yes       0.98      0.92      0.95       397
 
-    accuracy                           0.90       783
-   macro avg       0.90      0.90      0.90       783
-weighted avg       0.90      0.90      0.90       783
+    accuracy                           0.95       783
+   macro avg       0.95      0.95      0.95       783
+weighted avg       0.95      0.95      0.95       783
 
 ```
  Notice that I removed some logging info from TF which is not relevant at this point.
